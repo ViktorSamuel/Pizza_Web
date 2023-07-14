@@ -1,0 +1,668 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html
+{
+    color: #000;
+    width: 100%;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.row
+{
+    width: 70%;
+    margin: 0 15%;
+}
+
+.wow
+{
+    width: 88%;
+    margin: 0 6%;
+}
+
+/*
+.wol
+{
+    display: block;
+	float:left;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************
+************************** header
+*/
+
+
+
+.menu    /*header*/
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/menu-background1.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+
+
+.pizza   /*header*/
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/backpizza.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+}
+   
+
+
+
+
+.nav-back
+{
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    z-index: 95;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul
+{
+    float: right;
+    right: 1%;
+    padding: 8px;
+    position: fixed;
+    z-index: 100;
+}
+
+nav ul li
+{
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 30px;
+}
+
+nav ul li:link,
+nav ul li:visited
+{
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li:hover,
+nav ul li:active
+{
+    transition: 0.5s;
+    border-bottom: 2px solid #dc4f00;
+}
+
+
+.mobie-nav-icon
+{
+    float: right;
+    margin-top: 4px;
+    display: none;
+    position: fixed;
+}
+
+.header-text
+{
+    color: #f2f2f2;
+    font-style: italic;
+    position: relative;
+    top: 35%;
+    text-align: center;
+}
+
+.header-text h1
+{
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    word-spacing: 3px;
+}
+
+.header-text h2
+{
+    font-size: 28px;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************
+************************** now
+*/
+
+.now
+{
+    padding: 15px;
+    font-weight: 600;
+    border: 1px solid #bababa;
+}
+
+.now .now-actual p a
+{
+    color: #393939;
+    font-size: 20px;
+    margin: 0 12px;
+}
+
+.now .now-actual p a:hover
+{
+     transition: 0.5s;
+     border-bottom: 1px solid #dc4f00;
+}
+
+.now-actual
+{
+    width: 70%;
+    margin: 0 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************
+************************** main
+*/
+
+.section-title
+{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 50px;
+}
+
+.section-title:after
+{
+    display: block;
+    content: '';
+    width: 300px;
+    border-bottom: 2px solid #dc4f00;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************
+************************** OUR OFFER - MENU
+*/
+
+.box
+{   cursor: pointer;
+    width: 90%;
+    background: #fafafa;
+    padding-bottom: 10px;
+    height: 290px;
+    margin: 20px 0;
+    
+}
+
+.box-img
+{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.box-img a img
+{
+    width: 120%; 
+    height: 30vh;
+}
+
+.box .txt 
+{
+    padding: 10px;
+}
+
+
+.box .txt .food-name
+{
+    display: block;
+    color: #393939;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.box:hover .txt .food-name
+{
+    transition: 0.5s;
+    color: #dc4f00;
+}
+
+.txt .btn
+{
+    margin-top: 20px;
+    color: #dc4f00;
+    float: right;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px dashed #dc4f00;
+    padding: 7px;
+}
+
+.txt .btn:hover
+{
+    transition: 0.5s;
+    border: 1px solid #dc4f00; 
+    background: #dc4f00;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************
+************************** OUR OFFER - food - pizza
+*/
+
+
+.beside-panel, .food
+{
+    margin: 20px 0;
+    display: block;
+	float:left;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.beside-panel
+{
+    margin-top: 105px;
+    width: 25%;
+    border: 1px solid rgba(85, 85, 85, 0.51);
+}
+
+
+.beside-panel ul 
+{
+    list-style: none;
+}
+
+.beside-panel ul li:after
+{
+    width: 100%;
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(85, 85, 85, 0.51);
+}
+
+.beside-panel ul li a:link,
+.beside-panel ul li a:visited
+{
+    display: inline-block;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 22px;
+    width: 100%;
+}
+
+.beside-panel ul li a:hover,
+.beside-panel ul li a:active
+{
+    transition: 0.5s;
+    color: #dc4f00;
+    cursor: pointer;
+}
+
+.beside-panel ul li:first-child, .beside-panel ul li:last-child
+{
+    background: #dc4f00;
+}
+
+#a-full-fff:link,
+#a-full-fff:visited
+
+{
+    color: aliceblue;
+    display: inline-block;
+    width: 100%;
+}
+
+#a-full-fff:active,
+#a-full-fff:hover
+{
+    color: #333;
+}
+
+#a-full-fff2:link,
+#a-full-fff2:visited
+
+{
+    color: aliceblue;
+    display: inline-block;
+    width: 100%;
+}
+
+#a-full-fff2:active,
+#a-full-fff2:hover
+{
+    color: #333;
+}
+
+.food
+{
+    width: 75%;
+}
+
+.food h2 
+{
+    text-align: center;
+    margin: 20px;
+    font-size: 45px;
+    color: #ff5c00;
+}
+
+
+
+.food ul li
+{
+    list-style: none;
+    width: 90%;
+    margin-left: 5%;
+    height: 140px;
+    padding: 15px 5px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.food ul li:first-child
+{
+    text-align: right;
+    height: 70px;
+    padding: 25px 10px;
+    margin-bottom: 0;
+    background: #fdfdfd;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.food ul li:first-child span
+{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.food ul li:last-child
+{
+    border-bottom: 1px solid #dbdbdb;   
+}
+
+.food ul li .food-img
+{
+    float: left;
+}
+
+.food ul li .food-img img
+{
+    height: 85px;
+    width: 115px;
+}
+
+.food ul li .food-txt
+{
+    width: 50%;
+    margin-left: 15px;
+    float: left;
+}
+
+.food ul li .food-price
+{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.food ul li .food-price span
+{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************
+************************** FOOTER
+*/
+
+footer
+{
+/*    margin-top: 50px;*/
+    background: #7e7e7e;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+
+footer .row div
+{
+    padding: 20px;
+/*    min-width: 290px;*/
+}
+
+
+.udaje p a
+{
+    color: #fff;
+}
+
+.soc-med a img
+{
+    width: 25px;
+    margin: 15px 15px 0 15px;
+}
+
+.footer-title
+{
+    font-size: 150%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#up
+{
+    position: relative;
+    bottom: 3px;
+}
+
+
+.news form
+{
+/*    min-width: 250px;*/
+}
+
+.news form input[type="email"]
+{
+    margin: 5px 0;
+    padding: 5px;
+    float: left;
+    width: 75%;
+}
+
+.news form input[type="submit"]
+{
+    display: inline-block;
+    width: 22%;
+    margin-right: 3px;
+    min-width: 58px;
+    margin: 5px 0;
+    padding: 5px;
+    float: left;
+}
+
+
+
+
+
+/**************
+************************** STOP FLOATING
+*/
+
+.clearfix {zoom: 1}
+.clearfix:after
+	{
+		content: ".";
+		display: block;
+		clear: both;
+        height: 0;
+        visibility: hidden;
+	}
